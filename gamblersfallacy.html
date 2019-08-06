@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <body>
 <script type="module">
+<div id = "invisible" style = "opacity:0;"> </div>
 
 // Load the Observable runtime and inspector.
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
@@ -10,6 +11,80 @@ import notebook from "https://api.observablehq.com/@tmenezes1/gamblers-fallacy-3
 
 // Load the notebook, observing its cells with a default Inspector
 // that simply renders the value of each cell into the provided DOM node.
-new Runtime().module(notebook, Inspector.into(document.body));
+let module = new Runtime().module(notebook, name => {
+  if (name == "sleep") {
+    return new Inspector(document.querySelector(#invisible"))
+                                                }
+if (name == "char1correct") {
+    return new Inspector(document.querySelector(#invisible"))
+                                                }
+                         if (name == "char2correct") {
+    return new Inspector(document.querySelector(#invisible"))
+                                                }
+                                                if (name == "char3correct") {
+    return new Inspector(document.querySelector(#invisible"))
+                                                }
+                         if (name == "char1bubble") {
+    return new Inspector(document.querySelector(#invisible"))
+                                                }
+                                                if (name == "char2bubble") {
+    return new Inspector(document.querySelector(#invisible"))
+                                                }
+                         if (name == "char3bubble") {
+    return new Inspector(document.querySelector(#invisible"))
+                                                }
+                                                if (name == "userbets") {
+    return new Inspector(document.querySelector(#invisible"))
+                                                }
+                         if (name == "catbets") {
+    return new Inspector(document.querySelector(#invisible"))
+                                                }
+                                                if (name == "elephantbets") {
+    return new Inspector(document.querySelector(#invisible"))
+                                                }
+                         if (name == "elephantagrees") {
+    return new Inspector(document.querySelector(#invisible"))
+                                                }
+                                                if (name == "catagrees") {
+    return new Inspector(document.querySelector(#invisible"))
+                                                }
+                         if (name == "elephantnull") {
+    return new Inspector(document.querySelector(#invisible"))
+                                                }
+                                                if (name == "catnull") {
+    return new Inspector(document.querySelector(#invisible"))
+                                                }
+                         
+                         if (name == "percentage") {
+    return new Inspector(document.querySelector(#invisible"))
+                                                }
+                                                if (name == "percentElephant") {
+    return new Inspector(document.querySelector(#invisible"))
+                                                }
+                         if (name == "percentCat") {
+    return new Inspector(document.querySelector(#invisible"))
+                                                }
+                                                if (name == "tourneySim") {
+    return new Inspector(document.querySelector(#invisible"))
+                                                }
+                         if (name == "HRs") {
+    return new Inspector(document.querySelector(#invisible"))
+                                                }
+                                                if (name == "converger") {
+    return new Inspector(document.querySelector(#invisible"))
+                                                }
+                         if (name == "profits") {
+    return new Inspector(document.querySelector(#invisible"))
+                                                }
+                                                if (name == "ave") {
+    return new Inspector(document.querySelector(#invisible"))
+                                                }
+                         if (name == "ret4") {
+    return new Inspector(document.querySelector(#invisible"))
+                                                }
+                                                if (name == "averagelossesgraph") {
+    return new Inspector(document.querySelector(#invisible"))
+                                                }
+                         
 
 </script>
